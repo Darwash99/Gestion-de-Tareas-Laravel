@@ -6,6 +6,6 @@
 - Una vez terminado ejecutar (composer install) instalar las dependencias.
 - Por ultimo ejecutar las migraciones de laravel ( php artisan migrate y ejecutar el proyecto php artisan migrate).
 
-##Recordar iniciar el Proyecto en la Rama develop
+## Recordar iniciar el Proyecto en la Rama develop
 
 Cualquier duda o inquietud se pueden contactar conmigo. 

@@ -11,7 +11,7 @@
 
         <div class="wrap-input100 validate-input" data-validate = "Username is required">
             <x-text-input class="input100" id="email" type="email" name="email" :value="old('email')" required autofocus />
-            <x-input-error class="focus-input100" :messages="$errors->get('email')" />
+            <x-input-error :messages="$errors->get('email')" />
             
 		</div>
         <div class="block mt-4">

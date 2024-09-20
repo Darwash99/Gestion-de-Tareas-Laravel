@@ -15,7 +15,6 @@ function TareaCompletada() {
                 MostrarNotificacion('successtarea', response.message)
             }
             $('#ModalCompletartarea').modal('hide');
-            location.reload();
         },
         error: function(xhr, status, error) {
             console.log('Ocurrió un error: ', error);

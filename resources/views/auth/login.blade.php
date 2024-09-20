@@ -14,7 +14,7 @@
 		</div>
 		<div class="wrap-input100 validate-input" data-validate = "Username is required">
             <x-text-input class="input100" id="email"  type="email" name="email" :value="old('email')" required autofocus autocomplete="username" id="login-username"/>
-            <x-input-error class="focus-input100" :messages="$errors->get('email')"  />
+            <x-input-error  :messages="$errors->get('email')"  />
 		</div>
 					
 		<div class="p-t-13 p-b-9">
@@ -32,9 +32,9 @@
             <x-text-input id="password" class="input100"
                             type="password"
                             name="password"
-                            required autocomplete="current-password" />
+                            autocomplete="current-password" />
 
-            <x-input-error :messages="$errors->get('password')" class="focus-input100" />
+            <x-input-error :messages="$errors->get('password')"  />
 		</div>
         <div class="block mt-4">
             <a class="txt2 bo1 m-l-5" href="{{ route('register') }}">

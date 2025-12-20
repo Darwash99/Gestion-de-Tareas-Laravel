@@ -21,6 +21,7 @@ class TareaController extends Controller
     //LISTAR TODAS LAS TAREAS
     public function index() {
         $tareas = $this->tareaService->getTareasAll(auth()->id());
+        //dd('sissas');
         return view('tareas.index', compact('tareas'));
     }
 
